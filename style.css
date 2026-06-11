@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*styling the main container */
+.container{
+    width: 305px;
+    height: 108px;
+    border: 3px solid black;
+    margin-left: 100px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*styling the first row*/
+.first-row{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*styling h1*/
+h1{
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+/*styling likes pargraph*/
+.likes{
+    font-size: 16px;
+    margin-right: -22px;
+}
+
+/* styling likes button*/
+.like-btn{
+    background-color: #ffd966;
+    width: 50px;
+    height: 30px;
+    box-shadow: 3px 3px black;
+}
+
+/*styling second row*/
+.second-row{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding-left: 23px;
+
+}
